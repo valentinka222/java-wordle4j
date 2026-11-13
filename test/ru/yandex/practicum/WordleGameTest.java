@@ -2,15 +2,13 @@ package ru.yandex.practicum;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import java.util.Random;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import ru.yandex.practicum.exceptions.InvalidWordException;
 import ru.yandex.practicum.exceptions.WordNotFoundInDictionaryException;
 
-
 import java.io.PrintWriter;
+import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.*;
 

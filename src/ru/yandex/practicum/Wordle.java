@@ -15,7 +15,7 @@ public class Wordle {
     private static final String LOG_FILE = "wordle.log";
 
     public static void main(String[] args) {
-        try (PrintWriter log = new PrintWriter(new FileWriter(LOG_FILE, StandardCharsets.UTF_8))){
+        try (PrintWriter log = new PrintWriter(new FileWriter(LOG_FILE, StandardCharsets.UTF_8))) {
             try {
                 run(log);
             } catch (WordleSystemException e) {
