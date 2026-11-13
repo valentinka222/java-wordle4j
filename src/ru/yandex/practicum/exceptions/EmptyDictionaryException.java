@@ -1,7 +1,7 @@
 package ru.yandex.practicum.exceptions;
 
-public class EmptyDictionaryException extends RuntimeException {
-  public EmptyDictionaryException(String message) {
-    super(message);
-  }
+public class EmptyDictionaryException extends WordleSystemException {
+    public EmptyDictionaryException(String message) {
+        super(message);
+    }
 }
